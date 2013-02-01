@@ -1,0 +1,2 @@
+@interface PhotoVC : UIImagePickerController
+@end

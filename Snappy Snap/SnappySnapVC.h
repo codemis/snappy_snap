@@ -1,0 +1,2 @@
+@interface SnappySnapVC : UIViewController
+@end
