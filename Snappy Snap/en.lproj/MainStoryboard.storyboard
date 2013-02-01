@@ -31,7 +31,7 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="snapper.png" translatesAutoresizingMaskIntoConstraints="NO" id="L1w-1C-LaJ"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="on_same_path_avatar.png" translatesAutoresizingMaskIntoConstraints="NO" id="L1w-1C-LaJ"/>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -67,7 +67,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="snapper.png" width="64" height="64"/>
+        <image name="on_same_path_avatar.png" width="256" height="256"/>
     </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
@@ -79,6 +79,7 @@
         <class className="SnappySnapVC" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SnappySnapVC.h"/>
             <relationships>
+                <relationship kind="action" name="shareItClicked:"/>
                 <relationship kind="outlet" name="photoView" candidateClass="UIImageView"/>
             </relationships>
         </class>
