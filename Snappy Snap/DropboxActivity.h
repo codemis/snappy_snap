@@ -1,0 +1,2 @@
+@interface DropboxActivity : UIActivity
+@end

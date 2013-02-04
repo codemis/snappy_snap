@@ -21,6 +21,19 @@
 		66A2DEC416BB776900544961 /* SnappySnapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A2DEC316BB776900544961 /* SnappySnapVC.m */; };
 		66A2DEC616BB7AC000544961 /* snapper.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A2DEC516BB7AC000544961 /* snapper.png */; };
 		66A2DEC816BB820B00544961 /* on_same_path_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A2DEC716BB820B00544961 /* on_same_path_avatar.png */; };
+		F48C39F516BE1C80006943E2 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48C39F416BE1C80006943E2 /* DropboxSDK.framework */; };
+		F48C39F716BE1CC1006943E2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48C39F616BE1CC1006943E2 /* Security.framework */; };
+		F48C39F916BE1CCD006943E2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48C39F816BE1CCD006943E2 /* QuartzCore.framework */; };
+		F48C39FF16BE73B4006943E2 /* DropboxActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = F48C39FE16BE73B4006943E2 /* DropboxActivity.m */; };
+		F48C3A0116BE7579006943E2 /* Dropbox icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C3A0016BE7579006943E2 /* Dropbox icon.png */; };
+		F48C3A0F16BF6404006943E2 /* GSDropboxActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = F48C3A0416BF6404006943E2 /* GSDropboxActivity.m */; };
+		F48C3A1016BF6404006943E2 /* GSDropboxActivityIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C3A0516BF6404006943E2 /* GSDropboxActivityIcon.png */; };
+		F48C3A1116BF6404006943E2 /* GSDropboxActivityIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C3A0616BF6404006943E2 /* GSDropboxActivityIcon@2x.png */; };
+		F48C3A1216BF6404006943E2 /* GSDropboxActivityIcon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C3A0716BF6404006943E2 /* GSDropboxActivityIcon@2x~ipad.png */; };
+		F48C3A1316BF6404006943E2 /* GSDropboxActivityIcon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C3A0816BF6404006943E2 /* GSDropboxActivityIcon~ipad.png */; };
+		F48C3A1416BF6404006943E2 /* GSDropboxDestinationSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48C3A0A16BF6404006943E2 /* GSDropboxDestinationSelectionViewController.m */; };
+		F48C3A1516BF6404006943E2 /* GSDropboxUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = F48C3A0C16BF6404006943E2 /* GSDropboxUploader.m */; };
+		F48C3A1616BF6404006943E2 /* GSDropboxUploadJob.m in Sources */ = {isa = PBXBuildFile; fileRef = F48C3A0E16BF6404006943E2 /* GSDropboxUploadJob.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +57,24 @@
 		66A2DEC316BB776900544961 /* SnappySnapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnappySnapVC.m; sourceTree = "<group>"; };
 		66A2DEC516BB7AC000544961 /* snapper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snapper.png; sourceTree = "<group>"; };
 		66A2DEC716BB820B00544961 /* on_same_path_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = on_same_path_avatar.png; sourceTree = "<group>"; };
+		F48C39F416BE1C80006943E2 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		F48C39F616BE1CC1006943E2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F48C39F816BE1CCD006943E2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F48C39FD16BE73B4006943E2 /* DropboxActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropboxActivity.h; sourceTree = "<group>"; };
+		F48C39FE16BE73B4006943E2 /* DropboxActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropboxActivity.m; sourceTree = "<group>"; };
+		F48C3A0016BE7579006943E2 /* Dropbox icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dropbox icon.png"; sourceTree = "<group>"; };
+		F48C3A0316BF6404006943E2 /* GSDropboxActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSDropboxActivity.h; sourceTree = "<group>"; };
+		F48C3A0416BF6404006943E2 /* GSDropboxActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSDropboxActivity.m; sourceTree = "<group>"; };
+		F48C3A0516BF6404006943E2 /* GSDropboxActivityIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GSDropboxActivityIcon.png; sourceTree = "<group>"; };
+		F48C3A0616BF6404006943E2 /* GSDropboxActivityIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GSDropboxActivityIcon@2x.png"; sourceTree = "<group>"; };
+		F48C3A0716BF6404006943E2 /* GSDropboxActivityIcon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GSDropboxActivityIcon@2x~ipad.png"; sourceTree = "<group>"; };
+		F48C3A0816BF6404006943E2 /* GSDropboxActivityIcon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GSDropboxActivityIcon~ipad.png"; sourceTree = "<group>"; };
+		F48C3A0916BF6404006943E2 /* GSDropboxDestinationSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSDropboxDestinationSelectionViewController.h; sourceTree = "<group>"; };
+		F48C3A0A16BF6404006943E2 /* GSDropboxDestinationSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSDropboxDestinationSelectionViewController.m; sourceTree = "<group>"; };
+		F48C3A0B16BF6404006943E2 /* GSDropboxUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSDropboxUploader.h; sourceTree = "<group>"; };
+		F48C3A0C16BF6404006943E2 /* GSDropboxUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSDropboxUploader.m; sourceTree = "<group>"; };
+		F48C3A0D16BF6404006943E2 /* GSDropboxUploadJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSDropboxUploadJob.h; sourceTree = "<group>"; };
+		F48C3A0E16BF6404006943E2 /* GSDropboxUploadJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSDropboxUploadJob.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +82,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F48C39F916BE1CCD006943E2 /* QuartzCore.framework in Frameworks */,
+				F48C39F716BE1CC1006943E2 /* Security.framework in Frameworks */,
 				66A2DEA016BB728500544961 /* UIKit.framework in Frameworks */,
 				66A2DEA216BB728500544961 /* Foundation.framework in Frameworks */,
 				66A2DEA416BB728500544961 /* CoreGraphics.framework in Frameworks */,
+				F48C39F516BE1C80006943E2 /* DropboxSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +97,8 @@
 		66A2DE9316BB728500544961 = {
 			isa = PBXGroup;
 			children = (
+				F48C39F816BE1CCD006943E2 /* QuartzCore.framework */,
+				F48C39F616BE1CC1006943E2 /* Security.framework */,
 				66A2DEA516BB728500544961 /* Snappy Snap */,
 				66A2DE9E16BB728500544961 /* Frameworks */,
 				66A2DE9D16BB728500544961 /* Products */,
@@ -80,6 +116,7 @@
 		66A2DE9E16BB728500544961 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F48C39F416BE1C80006943E2 /* DropboxSDK.framework */,
 				66A2DE9F16BB728500544961 /* UIKit.framework */,
 				66A2DEA116BB728500544961 /* Foundation.framework */,
 				66A2DEA316BB728500544961 /* CoreGraphics.framework */,
@@ -90,6 +127,7 @@
 		66A2DEA516BB728500544961 /* Snappy Snap */ = {
 			isa = PBXGroup;
 			children = (
+				F48C3A0216BF6404006943E2 /* GSDropboxActivity */,
 				66A2DEAE16BB728500544961 /* AppDelegate.h */,
 				66A2DEAF16BB728500544961 /* AppDelegate.m */,
 				66A2DEB716BB728500544961 /* MainStoryboard.storyboard */,
@@ -99,6 +137,8 @@
 				66A2DEC216BB776900544961 /* SnappySnapVC.h */,
 				66A2DEC316BB776900544961 /* SnappySnapVC.m */,
 				66A2DEC716BB820B00544961 /* on_same_path_avatar.png */,
+				F48C39FD16BE73B4006943E2 /* DropboxActivity.h */,
+				F48C39FE16BE73B4006943E2 /* DropboxActivity.m */,
 			);
 			path = "Snappy Snap";
 			sourceTree = "<group>";
@@ -106,6 +146,7 @@
 		66A2DEA616BB728500544961 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F48C3A0016BE7579006943E2 /* Dropbox icon.png */,
 				66A2DEC516BB7AC000544961 /* snapper.png */,
 				66A2DEA716BB728500544961 /* Snappy Snap-Info.plist */,
 				66A2DEA816BB728500544961 /* InfoPlist.strings */,
@@ -116,6 +157,25 @@
 				66A2DEB516BB728500544961 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F48C3A0216BF6404006943E2 /* GSDropboxActivity */ = {
+			isa = PBXGroup;
+			children = (
+				F48C3A0316BF6404006943E2 /* GSDropboxActivity.h */,
+				F48C3A0416BF6404006943E2 /* GSDropboxActivity.m */,
+				F48C3A0516BF6404006943E2 /* GSDropboxActivityIcon.png */,
+				F48C3A0616BF6404006943E2 /* GSDropboxActivityIcon@2x.png */,
+				F48C3A0716BF6404006943E2 /* GSDropboxActivityIcon@2x~ipad.png */,
+				F48C3A0816BF6404006943E2 /* GSDropboxActivityIcon~ipad.png */,
+				F48C3A0916BF6404006943E2 /* GSDropboxDestinationSelectionViewController.h */,
+				F48C3A0A16BF6404006943E2 /* GSDropboxDestinationSelectionViewController.m */,
+				F48C3A0B16BF6404006943E2 /* GSDropboxUploader.h */,
+				F48C3A0C16BF6404006943E2 /* GSDropboxUploader.m */,
+				F48C3A0D16BF6404006943E2 /* GSDropboxUploadJob.h */,
+				F48C3A0E16BF6404006943E2 /* GSDropboxUploadJob.m */,
+			);
+			path = GSDropboxActivity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +236,11 @@
 				66A2DEB916BB728600544961 /* MainStoryboard.storyboard in Resources */,
 				66A2DEC616BB7AC000544961 /* snapper.png in Resources */,
 				66A2DEC816BB820B00544961 /* on_same_path_avatar.png in Resources */,
+				F48C3A0116BE7579006943E2 /* Dropbox icon.png in Resources */,
+				F48C3A1016BF6404006943E2 /* GSDropboxActivityIcon.png in Resources */,
+				F48C3A1116BF6404006943E2 /* GSDropboxActivityIcon@2x.png in Resources */,
+				F48C3A1216BF6404006943E2 /* GSDropboxActivityIcon@2x~ipad.png in Resources */,
+				F48C3A1316BF6404006943E2 /* GSDropboxActivityIcon~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +255,11 @@
 				66A2DEB016BB728500544961 /* AppDelegate.m in Sources */,
 				66A2DEBC16BB728600544961 /* PhotoVC.m in Sources */,
 				66A2DEC416BB776900544961 /* SnappySnapVC.m in Sources */,
+				F48C39FF16BE73B4006943E2 /* DropboxActivity.m in Sources */,
+				F48C3A0F16BF6404006943E2 /* GSDropboxActivity.m in Sources */,
+				F48C3A1416BF6404006943E2 /* GSDropboxDestinationSelectionViewController.m in Sources */,
+				F48C3A1516BF6404006943E2 /* GSDropboxUploader.m in Sources */,
+				F48C3A1616BF6404006943E2 /* GSDropboxUploadJob.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +344,10 @@
 		66A2DEC016BB728600544961 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Snappy Snap/Snappy Snap-Prefix.pch";
 				INFOPLIST_FILE = "Snappy Snap/Snappy Snap-Info.plist";
@@ -285,6 +359,10 @@
 		66A2DEC116BB728600544961 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Snappy Snap/Snappy Snap-Prefix.pch";
 				INFOPLIST_FILE = "Snappy Snap/Snappy Snap-Info.plist";
@@ -312,6 +390,7 @@
 				66A2DEC116BB728600544961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
