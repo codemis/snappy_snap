@@ -13,14 +13,19 @@
 		66A2DEAA16BB728500544961 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66A2DEA816BB728500544961 /* InfoPlist.strings */; };
 		66A2DEAC16BB728500544961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A2DEAB16BB728500544961 /* main.m */; };
 		66A2DEB016BB728500544961 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A2DEAF16BB728500544961 /* AppDelegate.m */; };
-		66A2DEB216BB728500544961 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A2DEB116BB728500544961 /* Default.png */; };
-		66A2DEB416BB728500544961 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A2DEB316BB728500544961 /* Default@2x.png */; };
-		66A2DEB616BB728500544961 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A2DEB516BB728500544961 /* Default-568h@2x.png */; };
 		66A2DEB916BB728600544961 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A2DEB716BB728500544961 /* MainStoryboard.storyboard */; };
 		66A2DEBC16BB728600544961 /* PhotoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A2DEBB16BB728600544961 /* PhotoVC.m */; };
 		66A2DEC416BB776900544961 /* SnappySnapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A2DEC316BB776900544961 /* SnappySnapVC.m */; };
-		66A2DEC616BB7AC000544961 /* snapper.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A2DEC516BB7AC000544961 /* snapper.png */; };
 		66A2DEC816BB820B00544961 /* on_same_path_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A2DEC716BB820B00544961 /* on_same_path_avatar.png */; };
+		66F2E28B16C0C0F000FABA75 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F2E28416C0C0F000FABA75 /* Default-568h@2x.png */; };
+		66F2E28C16C0C0F000FABA75 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F2E28516C0C0F000FABA75 /* Default.png */; };
+		66F2E28D16C0C0F000FABA75 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F2E28616C0C0F000FABA75 /* Default@2x.png */; };
+		66F2E28E16C0C0F000FABA75 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F2E28716C0C0F000FABA75 /* Icon-72.png */; };
+		66F2E28F16C0C0F000FABA75 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F2E28816C0C0F000FABA75 /* Icon.png */; };
+		66F2E29016C0C0F000FABA75 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F2E28916C0C0F000FABA75 /* Icon@2x.png */; };
+		66F2E29116C0C0F000FABA75 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F2E28A16C0C0F000FABA75 /* iTunesArtwork.png */; };
+		66F2E29416C0C45E00FABA75 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F2E29216C0C45E00FABA75 /* background.png */; };
+		66F2E29516C0C45E00FABA75 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F2E29316C0C45E00FABA75 /* background@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,16 +39,21 @@
 		66A2DEAD16BB728500544961 /* Snappy Snap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Snappy Snap-Prefix.pch"; sourceTree = "<group>"; };
 		66A2DEAE16BB728500544961 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		66A2DEAF16BB728500544961 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		66A2DEB116BB728500544961 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		66A2DEB316BB728500544961 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		66A2DEB516BB728500544961 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		66A2DEB816BB728600544961 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		66A2DEBA16BB728600544961 /* PhotoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoVC.h; sourceTree = "<group>"; };
 		66A2DEBB16BB728600544961 /* PhotoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoVC.m; sourceTree = "<group>"; };
 		66A2DEC216BB776900544961 /* SnappySnapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnappySnapVC.h; sourceTree = "<group>"; };
 		66A2DEC316BB776900544961 /* SnappySnapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnappySnapVC.m; sourceTree = "<group>"; };
-		66A2DEC516BB7AC000544961 /* snapper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snapper.png; sourceTree = "<group>"; };
 		66A2DEC716BB820B00544961 /* on_same_path_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = on_same_path_avatar.png; sourceTree = "<group>"; };
+		66F2E28416C0C0F000FABA75 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		66F2E28516C0C0F000FABA75 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		66F2E28616C0C0F000FABA75 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		66F2E28716C0C0F000FABA75 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		66F2E28816C0C0F000FABA75 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		66F2E28916C0C0F000FABA75 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		66F2E28A16C0C0F000FABA75 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		66F2E29216C0C45E00FABA75 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		66F2E29316C0C45E00FABA75 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,16 +116,29 @@
 		66A2DEA616BB728500544961 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				66A2DEC516BB7AC000544961 /* snapper.png */,
+				66F2E28316C0C0D700FABA75 /* images */,
 				66A2DEA716BB728500544961 /* Snappy Snap-Info.plist */,
 				66A2DEA816BB728500544961 /* InfoPlist.strings */,
 				66A2DEAB16BB728500544961 /* main.m */,
 				66A2DEAD16BB728500544961 /* Snappy Snap-Prefix.pch */,
-				66A2DEB116BB728500544961 /* Default.png */,
-				66A2DEB316BB728500544961 /* Default@2x.png */,
-				66A2DEB516BB728500544961 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66F2E28316C0C0D700FABA75 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				66F2E29216C0C45E00FABA75 /* background.png */,
+				66F2E29316C0C45E00FABA75 /* background@2x.png */,
+				66F2E28416C0C0F000FABA75 /* Default-568h@2x.png */,
+				66F2E28516C0C0F000FABA75 /* Default.png */,
+				66F2E28616C0C0F000FABA75 /* Default@2x.png */,
+				66F2E28716C0C0F000FABA75 /* Icon-72.png */,
+				66F2E28816C0C0F000FABA75 /* Icon.png */,
+				66F2E28916C0C0F000FABA75 /* Icon@2x.png */,
+				66F2E28A16C0C0F000FABA75 /* iTunesArtwork.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,12 +193,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				66A2DEAA16BB728500544961 /* InfoPlist.strings in Resources */,
-				66A2DEB216BB728500544961 /* Default.png in Resources */,
-				66A2DEB416BB728500544961 /* Default@2x.png in Resources */,
-				66A2DEB616BB728500544961 /* Default-568h@2x.png in Resources */,
 				66A2DEB916BB728600544961 /* MainStoryboard.storyboard in Resources */,
-				66A2DEC616BB7AC000544961 /* snapper.png in Resources */,
 				66A2DEC816BB820B00544961 /* on_same_path_avatar.png in Resources */,
+				66F2E28B16C0C0F000FABA75 /* Default-568h@2x.png in Resources */,
+				66F2E28C16C0C0F000FABA75 /* Default.png in Resources */,
+				66F2E28D16C0C0F000FABA75 /* Default@2x.png in Resources */,
+				66F2E28E16C0C0F000FABA75 /* Icon-72.png in Resources */,
+				66F2E28F16C0C0F000FABA75 /* Icon.png in Resources */,
+				66F2E29016C0C0F000FABA75 /* Icon@2x.png in Resources */,
+				66F2E29116C0C0F000FABA75 /* iTunesArtwork.png in Resources */,
+				66F2E29416C0C45E00FABA75 /* background.png in Resources */,
+				66F2E29516C0C45E00FABA75 /* background@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +340,7 @@
 				66A2DEC116BB728600544961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

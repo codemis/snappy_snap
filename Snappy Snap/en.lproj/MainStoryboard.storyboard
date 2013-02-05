@@ -14,7 +14,7 @@
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jwj-at-HmJ">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="EwF-Nx-sJx"/>
+                                    <constraint firstAttribute="height" constant="44" id="Q9t-Kb-cdi"/>
                                 </constraints>
                                 <items>
                                     <navigationItem title="Snappy Snap!" id="gxG-yL-02U">
@@ -31,11 +31,10 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="on_same_path_avatar.png" translatesAutoresizingMaskIntoConstraints="NO" id="L1w-1C-LaJ"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="L1w-1C-LaJ"/>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="L1w-1C-LaJ" firstAttribute="trailing" secondItem="Ybe-Xm-U6c" secondAttribute="trailing" type="default" id="Oph-hB-Nex"/>
                             <constraint firstItem="Jwj-at-HmJ" firstAttribute="trailing" secondItem="Ybe-Xm-U6c" secondAttribute="trailing" type="default" id="Tgf-cU-m2d"/>
                             <constraint firstItem="Jwj-at-HmJ" firstAttribute="top" secondItem="Ybe-Xm-U6c" secondAttribute="top" type="default" id="VVc-g8-qSL"/>
                             <constraint firstItem="L1w-1C-LaJ" firstAttribute="bottom" secondItem="Ybe-Xm-U6c" secondAttribute="bottom" type="default" id="c21-hu-5rb"/>
@@ -67,7 +66,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="on_same_path_avatar.png" width="256" height="256"/>
+        <image name="background.png" width="320" height="480"/>
     </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
