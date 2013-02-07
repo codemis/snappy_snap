@@ -14,9 +14,7 @@
 		66A2DEAC16BB728500544961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A2DEAB16BB728500544961 /* main.m */; };
 		66A2DEB016BB728500544961 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A2DEAF16BB728500544961 /* AppDelegate.m */; };
 		66A2DEB916BB728600544961 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A2DEB716BB728500544961 /* MainStoryboard.storyboard */; };
-		66A2DEBC16BB728600544961 /* PhotoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A2DEBB16BB728600544961 /* PhotoVC.m */; };
 		66A2DEC416BB776900544961 /* SnappySnapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A2DEC316BB776900544961 /* SnappySnapVC.m */; };
-		66A2DEC816BB820B00544961 /* on_same_path_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A2DEC716BB820B00544961 /* on_same_path_avatar.png */; };
 		66F2E28B16C0C0F000FABA75 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F2E28416C0C0F000FABA75 /* Default-568h@2x.png */; };
 		66F2E28C16C0C0F000FABA75 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F2E28516C0C0F000FABA75 /* Default.png */; };
 		66F2E28D16C0C0F000FABA75 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F2E28616C0C0F000FABA75 /* Default@2x.png */; };
@@ -40,11 +38,8 @@
 		66A2DEAE16BB728500544961 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		66A2DEAF16BB728500544961 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		66A2DEB816BB728600544961 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		66A2DEBA16BB728600544961 /* PhotoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoVC.h; sourceTree = "<group>"; };
-		66A2DEBB16BB728600544961 /* PhotoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoVC.m; sourceTree = "<group>"; };
 		66A2DEC216BB776900544961 /* SnappySnapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnappySnapVC.h; sourceTree = "<group>"; };
 		66A2DEC316BB776900544961 /* SnappySnapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnappySnapVC.m; sourceTree = "<group>"; };
-		66A2DEC716BB820B00544961 /* on_same_path_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = on_same_path_avatar.png; sourceTree = "<group>"; };
 		66F2E28416C0C0F000FABA75 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		66F2E28516C0C0F000FABA75 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		66F2E28616C0C0F000FABA75 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -103,12 +98,9 @@
 				66A2DEAE16BB728500544961 /* AppDelegate.h */,
 				66A2DEAF16BB728500544961 /* AppDelegate.m */,
 				66A2DEB716BB728500544961 /* MainStoryboard.storyboard */,
-				66A2DEBA16BB728600544961 /* PhotoVC.h */,
-				66A2DEBB16BB728600544961 /* PhotoVC.m */,
 				66A2DEA616BB728500544961 /* Supporting Files */,
 				66A2DEC216BB776900544961 /* SnappySnapVC.h */,
 				66A2DEC316BB776900544961 /* SnappySnapVC.m */,
-				66A2DEC716BB820B00544961 /* on_same_path_avatar.png */,
 			);
 			path = "Snappy Snap";
 			sourceTree = "<group>";
@@ -194,7 +186,6 @@
 			files = (
 				66A2DEAA16BB728500544961 /* InfoPlist.strings in Resources */,
 				66A2DEB916BB728600544961 /* MainStoryboard.storyboard in Resources */,
-				66A2DEC816BB820B00544961 /* on_same_path_avatar.png in Resources */,
 				66F2E28B16C0C0F000FABA75 /* Default-568h@2x.png in Resources */,
 				66F2E28C16C0C0F000FABA75 /* Default.png in Resources */,
 				66F2E28D16C0C0F000FABA75 /* Default@2x.png in Resources */,
@@ -216,7 +207,6 @@
 			files = (
 				66A2DEAC16BB728500544961 /* main.m in Sources */,
 				66A2DEB016BB728500544961 /* AppDelegate.m in Sources */,
-				66A2DEBC16BB728600544961 /* PhotoVC.m in Sources */,
 				66A2DEC416BB776900544961 /* SnappySnapVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

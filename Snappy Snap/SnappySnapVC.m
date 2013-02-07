@@ -17,4 +17,15 @@
     UIActivityViewController *activityVC = [[UIActivityViewController alloc] initWithActivityItems:@[self.photoView.image] applicationActivities:nil];
     [self presentViewController:activityVC animated:YES completion:nil];
 }
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    UIImagePickerController *imagePickerController = segue.destinationViewController;
+#if TARGET_IPHONE_SIMULATOR
+    imagePickerController.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+#else
+    imagePickerController.sourceType = UIImagePickerControllerSourceTypeCamera;
+#endif
+    imagePickerController.editing = YES;
+    imagePickerController.delegate = (id)self;
+
+}
 @end
