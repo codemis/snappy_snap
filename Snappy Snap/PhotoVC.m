@@ -1,4 +1,5 @@
 #import "PhotoVC.h"
+#import "SnappySnapVC.h"
 @interface PhotoVC ()<UIImagePickerControllerDelegate>
 @end
 
@@ -12,6 +13,7 @@
     self.sourceType = UIImagePickerControllerSourceTypeCamera;
 #endif
     self.editing = YES;
-    self.delegate = (id)self.presentingViewController;
+    SnappySnapVC *snappySnapVC = ((UINavigationController*) self.presentingViewController).viewControllers[0];
+    self.delegate = (id)snappySnapVC;
 }
 @end
