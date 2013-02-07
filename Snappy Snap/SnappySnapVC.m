@@ -5,7 +5,6 @@
 @implementation SnappySnapVC
 #pragma mark - Image picker delegate methods
 -(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
-    self.photoView.contentMode = UIViewContentModeScaleAspectFill;
 	self.photoView.image = info[UIImagePickerControllerOriginalImage];
     [picker dismissViewControllerAnimated:YES completion:nil];
 }

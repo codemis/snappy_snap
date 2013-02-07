@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3083" systemVersion="11G63" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="T09-no-DVs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="T09-no-DVs">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -17,7 +17,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hEH-s5-RBn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-754" y="112"/>
+            <point key="canvasLocation" x="-756" y="123"/>
         </scene>
         <!--Snappy SnapVC - Snappy Snap!-->
         <scene sceneID="Tmj-R3-O8A">
@@ -27,14 +27,12 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="L1w-1C-LaJ"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="background.png" id="L1w-1C-LaJ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="L1w-1C-LaJ" firstAttribute="top" secondItem="Ybe-Xm-U6c" secondAttribute="top" type="default" id="7eR-w6-T44"/>
-                            <constraint firstItem="L1w-1C-LaJ" firstAttribute="bottom" secondItem="Ybe-Xm-U6c" secondAttribute="bottom" type="default" id="c21-hu-5rb"/>
-                            <constraint firstItem="L1w-1C-LaJ" firstAttribute="leading" secondItem="Ybe-Xm-U6c" secondAttribute="leading" type="default" id="zTa-lc-N3C"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Snappy Snap!" id="RQ2-5e-Yyu">
                         <barButtonItem key="leftBarButtonItem" systemItem="action" id="gNe-wr-H3D">
@@ -54,7 +52,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i2j-Vn-hOk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-222" y="123"/>
+            <point key="canvasLocation" x="-309" y="123"/>
         </scene>
         <!--Image Picker Controller-->
         <scene sceneID="5">
@@ -68,19 +66,17 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="358" y="123"/>
+            <point key="canvasLocation" x="145" y="123"/>
         </scene>
     </scenes>
     <resources>
         <image name="background.png" width="320" height="480"/>
     </resources>
     <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
         <class className="SnappySnapVC" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SnappySnapVC.h"/>
             <relationships>
+                <relationship kind="action" name="shareItClicked:"/>
                 <relationship kind="outlet" name="photoView" candidateClass="UIImageView"/>
             </relationships>
         </class>
