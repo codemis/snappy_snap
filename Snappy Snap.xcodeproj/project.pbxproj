@@ -16,6 +16,8 @@
 		6640405F16C9F66000C23AC3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6640405616C9F66000C23AC3 /* Icon.png */; };
 		6640406016C9F66000C23AC3 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6640405716C9F66000C23AC3 /* Icon@2x.png */; };
 		6640406116C9F66000C23AC3 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 6640405816C9F66000C23AC3 /* iTunesArtwork.png */; };
+		6640406416C9FC6000C23AC3 /* SSTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 6640406316C9FC6000C23AC3 /* SSTheme.m */; };
+		6640406616CA005A00C23AC3 /* CooperBlackStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6640406516C9FF3200C23AC3 /* CooperBlackStd.otf */; };
 		66A2DEA016BB728500544961 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A2DE9F16BB728500544961 /* UIKit.framework */; };
 		66A2DEA216BB728500544961 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A2DEA116BB728500544961 /* Foundation.framework */; };
 		66A2DEA416BB728500544961 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A2DEA316BB728500544961 /* CoreGraphics.framework */; };
@@ -49,6 +51,9 @@
 		6640405616C9F66000C23AC3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		6640405716C9F66000C23AC3 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		6640405816C9F66000C23AC3 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		6640406216C9FC6000C23AC3 /* SSTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTheme.h; sourceTree = "<group>"; };
+		6640406316C9FC6000C23AC3 /* SSTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTheme.m; sourceTree = "<group>"; };
+		6640406516C9FF3200C23AC3 /* CooperBlackStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CooperBlackStd.otf; sourceTree = "<group>"; };
 		66A2DE9C16BB728500544961 /* Snappy Snap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snappy Snap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A2DE9F16BB728500544961 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		66A2DEA116BB728500544961 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -141,6 +146,8 @@
 				66A2DEC316BB776900544961 /* SnappySnapVC.m */,
 				F48C39FD16BE73B4006943E2 /* DropboxActivity.h */,
 				F48C39FE16BE73B4006943E2 /* DropboxActivity.m */,
+				6640406216C9FC6000C23AC3 /* SSTheme.h */,
+				6640406316C9FC6000C23AC3 /* SSTheme.m */,
 			);
 			path = "Snappy Snap";
 			sourceTree = "<group>";
@@ -148,6 +155,7 @@
 		66A2DEA616BB728500544961 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6640406516C9FF3200C23AC3 /* CooperBlackStd.otf */,
 				6640405016C9F66000C23AC3 /* background.png */,
 				6640405116C9F66000C23AC3 /* background@2x.png */,
 				6640405216C9F66000C23AC3 /* Default-568h@2x.png */,
@@ -236,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6640406616CA005A00C23AC3 /* CooperBlackStd.otf in Resources */,
 				66A2DEAA16BB728500544961 /* InfoPlist.strings in Resources */,
 				66A2DEB916BB728600544961 /* MainStoryboard.storyboard in Resources */,
 				F48C3A0116BE7579006943E2 /* Dropbox icon.png in Resources */,
@@ -270,6 +279,7 @@
 				F48C3A1416BF6404006943E2 /* GSDropboxDestinationSelectionViewController.m in Sources */,
 				F48C3A1516BF6404006943E2 /* GSDropboxUploader.m in Sources */,
 				F48C3A1616BF6404006943E2 /* GSDropboxUploadJob.m in Sources */,
+				6640406416C9FC6000C23AC3 /* SSTheme.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

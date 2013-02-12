@@ -2,6 +2,7 @@
 #define kAppSecret @"xy6tq1tax6rqnsg"
 
 #import "AppDelegate.h"
+#import "SSTheme.h"
 #import <DropboxSDK/DropboxSDK.h>
 
 @implementation AppDelegate
@@ -11,6 +12,7 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
                                                    appSecret:kAppSecret
                                                         root:kDBRootAppFolder];
     [DBSession setSharedSession:dbSession];
+    [SSTheme applyStyle];
     return YES;
 }
 -(BOOL)application:(UIApplication *)application
