@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6640405916C9F66000C23AC3 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 6640405016C9F66000C23AC3 /* background.png */; };
+		6640405A16C9F66000C23AC3 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6640405116C9F66000C23AC3 /* background@2x.png */; };
+		6640405B16C9F66000C23AC3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6640405216C9F66000C23AC3 /* Default-568h@2x.png */; };
+		6640405C16C9F66000C23AC3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6640405316C9F66000C23AC3 /* Default.png */; };
+		6640405D16C9F66000C23AC3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6640405416C9F66000C23AC3 /* Default@2x.png */; };
+		6640405E16C9F66000C23AC3 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 6640405516C9F66000C23AC3 /* Icon-72.png */; };
+		6640405F16C9F66000C23AC3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6640405616C9F66000C23AC3 /* Icon.png */; };
+		6640406016C9F66000C23AC3 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6640405716C9F66000C23AC3 /* Icon@2x.png */; };
+		6640406116C9F66000C23AC3 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 6640405816C9F66000C23AC3 /* iTunesArtwork.png */; };
 		66A2DEA016BB728500544961 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A2DE9F16BB728500544961 /* UIKit.framework */; };
 		66A2DEA216BB728500544961 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A2DEA116BB728500544961 /* Foundation.framework */; };
 		66A2DEA416BB728500544961 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A2DEA316BB728500544961 /* CoreGraphics.framework */; };
@@ -15,18 +24,31 @@
 		66A2DEB016BB728500544961 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A2DEAF16BB728500544961 /* AppDelegate.m */; };
 		66A2DEB916BB728600544961 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A2DEB716BB728500544961 /* MainStoryboard.storyboard */; };
 		66A2DEC416BB776900544961 /* SnappySnapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A2DEC316BB776900544961 /* SnappySnapVC.m */; };
-		66F2E28B16C0C0F000FABA75 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F2E28416C0C0F000FABA75 /* Default-568h@2x.png */; };
-		66F2E28C16C0C0F000FABA75 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F2E28516C0C0F000FABA75 /* Default.png */; };
-		66F2E28D16C0C0F000FABA75 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F2E28616C0C0F000FABA75 /* Default@2x.png */; };
-		66F2E28E16C0C0F000FABA75 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F2E28716C0C0F000FABA75 /* Icon-72.png */; };
-		66F2E28F16C0C0F000FABA75 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F2E28816C0C0F000FABA75 /* Icon.png */; };
-		66F2E29016C0C0F000FABA75 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F2E28916C0C0F000FABA75 /* Icon@2x.png */; };
-		66F2E29116C0C0F000FABA75 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F2E28A16C0C0F000FABA75 /* iTunesArtwork.png */; };
-		66F2E29416C0C45E00FABA75 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F2E29216C0C45E00FABA75 /* background.png */; };
-		66F2E29516C0C45E00FABA75 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F2E29316C0C45E00FABA75 /* background@2x.png */; };
+		F48C39F516BE1C80006943E2 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48C39F416BE1C80006943E2 /* DropboxSDK.framework */; };
+		F48C39F716BE1CC1006943E2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48C39F616BE1CC1006943E2 /* Security.framework */; };
+		F48C39F916BE1CCD006943E2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48C39F816BE1CCD006943E2 /* QuartzCore.framework */; };
+		F48C39FF16BE73B4006943E2 /* DropboxActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = F48C39FE16BE73B4006943E2 /* DropboxActivity.m */; };
+		F48C3A0116BE7579006943E2 /* Dropbox icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C3A0016BE7579006943E2 /* Dropbox icon.png */; };
+		F48C3A0F16BF6404006943E2 /* GSDropboxActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = F48C3A0416BF6404006943E2 /* GSDropboxActivity.m */; };
+		F48C3A1016BF6404006943E2 /* GSDropboxActivityIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C3A0516BF6404006943E2 /* GSDropboxActivityIcon.png */; };
+		F48C3A1116BF6404006943E2 /* GSDropboxActivityIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C3A0616BF6404006943E2 /* GSDropboxActivityIcon@2x.png */; };
+		F48C3A1216BF6404006943E2 /* GSDropboxActivityIcon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C3A0716BF6404006943E2 /* GSDropboxActivityIcon@2x~ipad.png */; };
+		F48C3A1316BF6404006943E2 /* GSDropboxActivityIcon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C3A0816BF6404006943E2 /* GSDropboxActivityIcon~ipad.png */; };
+		F48C3A1416BF6404006943E2 /* GSDropboxDestinationSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48C3A0A16BF6404006943E2 /* GSDropboxDestinationSelectionViewController.m */; };
+		F48C3A1516BF6404006943E2 /* GSDropboxUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = F48C3A0C16BF6404006943E2 /* GSDropboxUploader.m */; };
+		F48C3A1616BF6404006943E2 /* GSDropboxUploadJob.m in Sources */ = {isa = PBXBuildFile; fileRef = F48C3A0E16BF6404006943E2 /* GSDropboxUploadJob.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6640405016C9F66000C23AC3 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		6640405116C9F66000C23AC3 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		6640405216C9F66000C23AC3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6640405316C9F66000C23AC3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6640405416C9F66000C23AC3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6640405516C9F66000C23AC3 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		6640405616C9F66000C23AC3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6640405716C9F66000C23AC3 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		6640405816C9F66000C23AC3 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
 		66A2DE9C16BB728500544961 /* Snappy Snap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snappy Snap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A2DE9F16BB728500544961 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		66A2DEA116BB728500544961 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,15 +62,24 @@
 		66A2DEB816BB728600544961 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		66A2DEC216BB776900544961 /* SnappySnapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnappySnapVC.h; sourceTree = "<group>"; };
 		66A2DEC316BB776900544961 /* SnappySnapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnappySnapVC.m; sourceTree = "<group>"; };
-		66F2E28416C0C0F000FABA75 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		66F2E28516C0C0F000FABA75 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		66F2E28616C0C0F000FABA75 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		66F2E28716C0C0F000FABA75 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
-		66F2E28816C0C0F000FABA75 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		66F2E28916C0C0F000FABA75 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		66F2E28A16C0C0F000FABA75 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
-		66F2E29216C0C45E00FABA75 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		66F2E29316C0C45E00FABA75 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		F48C39F416BE1C80006943E2 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		F48C39F616BE1CC1006943E2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F48C39F816BE1CCD006943E2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F48C39FD16BE73B4006943E2 /* DropboxActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropboxActivity.h; sourceTree = "<group>"; };
+		F48C39FE16BE73B4006943E2 /* DropboxActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropboxActivity.m; sourceTree = "<group>"; };
+		F48C3A0016BE7579006943E2 /* Dropbox icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dropbox icon.png"; sourceTree = "<group>"; };
+		F48C3A0316BF6404006943E2 /* GSDropboxActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSDropboxActivity.h; sourceTree = "<group>"; };
+		F48C3A0416BF6404006943E2 /* GSDropboxActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSDropboxActivity.m; sourceTree = "<group>"; };
+		F48C3A0516BF6404006943E2 /* GSDropboxActivityIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GSDropboxActivityIcon.png; sourceTree = "<group>"; };
+		F48C3A0616BF6404006943E2 /* GSDropboxActivityIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GSDropboxActivityIcon@2x.png"; sourceTree = "<group>"; };
+		F48C3A0716BF6404006943E2 /* GSDropboxActivityIcon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GSDropboxActivityIcon@2x~ipad.png"; sourceTree = "<group>"; };
+		F48C3A0816BF6404006943E2 /* GSDropboxActivityIcon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GSDropboxActivityIcon~ipad.png"; sourceTree = "<group>"; };
+		F48C3A0916BF6404006943E2 /* GSDropboxDestinationSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSDropboxDestinationSelectionViewController.h; sourceTree = "<group>"; };
+		F48C3A0A16BF6404006943E2 /* GSDropboxDestinationSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSDropboxDestinationSelectionViewController.m; sourceTree = "<group>"; };
+		F48C3A0B16BF6404006943E2 /* GSDropboxUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSDropboxUploader.h; sourceTree = "<group>"; };
+		F48C3A0C16BF6404006943E2 /* GSDropboxUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSDropboxUploader.m; sourceTree = "<group>"; };
+		F48C3A0D16BF6404006943E2 /* GSDropboxUploadJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSDropboxUploadJob.h; sourceTree = "<group>"; };
+		F48C3A0E16BF6404006943E2 /* GSDropboxUploadJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSDropboxUploadJob.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +139,8 @@
 				66A2DEA616BB728500544961 /* Supporting Files */,
 				66A2DEC216BB776900544961 /* SnappySnapVC.h */,
 				66A2DEC316BB776900544961 /* SnappySnapVC.m */,
+				F48C39FD16BE73B4006943E2 /* DropboxActivity.h */,
+				F48C39FE16BE73B4006943E2 /* DropboxActivity.m */,
 			);
 			path = "Snappy Snap";
 			sourceTree = "<group>";
@@ -115,7 +148,16 @@
 		66A2DEA616BB728500544961 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				66F2E28316C0C0D700FABA75 /* images */,
+				6640405016C9F66000C23AC3 /* background.png */,
+				6640405116C9F66000C23AC3 /* background@2x.png */,
+				6640405216C9F66000C23AC3 /* Default-568h@2x.png */,
+				6640405316C9F66000C23AC3 /* Default.png */,
+				6640405416C9F66000C23AC3 /* Default@2x.png */,
+				6640405516C9F66000C23AC3 /* Icon-72.png */,
+				6640405616C9F66000C23AC3 /* Icon.png */,
+				6640405716C9F66000C23AC3 /* Icon@2x.png */,
+				6640405816C9F66000C23AC3 /* iTunesArtwork.png */,
+				F48C3A0016BE7579006943E2 /* Dropbox icon.png */,
 				66A2DEA716BB728500544961 /* Snappy Snap-Info.plist */,
 				66A2DEA816BB728500544961 /* InfoPlist.strings */,
 				66A2DEAB16BB728500544961 /* main.m */,
@@ -124,20 +166,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		66F2E28316C0C0D700FABA75 /* images */ = {
+		F48C3A0216BF6404006943E2 /* GSDropboxActivity */ = {
 			isa = PBXGroup;
 			children = (
-				66F2E29216C0C45E00FABA75 /* background.png */,
-				66F2E29316C0C45E00FABA75 /* background@2x.png */,
-				66F2E28416C0C0F000FABA75 /* Default-568h@2x.png */,
-				66F2E28516C0C0F000FABA75 /* Default.png */,
-				66F2E28616C0C0F000FABA75 /* Default@2x.png */,
-				66F2E28716C0C0F000FABA75 /* Icon-72.png */,
-				66F2E28816C0C0F000FABA75 /* Icon.png */,
-				66F2E28916C0C0F000FABA75 /* Icon@2x.png */,
-				66F2E28A16C0C0F000FABA75 /* iTunesArtwork.png */,
+				F48C3A0316BF6404006943E2 /* GSDropboxActivity.h */,
+				F48C3A0416BF6404006943E2 /* GSDropboxActivity.m */,
+				F48C3A0516BF6404006943E2 /* GSDropboxActivityIcon.png */,
+				F48C3A0616BF6404006943E2 /* GSDropboxActivityIcon@2x.png */,
+				F48C3A0716BF6404006943E2 /* GSDropboxActivityIcon@2x~ipad.png */,
+				F48C3A0816BF6404006943E2 /* GSDropboxActivityIcon~ipad.png */,
+				F48C3A0916BF6404006943E2 /* GSDropboxDestinationSelectionViewController.h */,
+				F48C3A0A16BF6404006943E2 /* GSDropboxDestinationSelectionViewController.m */,
+				F48C3A0B16BF6404006943E2 /* GSDropboxUploader.h */,
+				F48C3A0C16BF6404006943E2 /* GSDropboxUploader.m */,
+				F48C3A0D16BF6404006943E2 /* GSDropboxUploadJob.h */,
+				F48C3A0E16BF6404006943E2 /* GSDropboxUploadJob.m */,
 			);
-			name = images;
+			path = GSDropboxActivity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,15 +238,20 @@
 			files = (
 				66A2DEAA16BB728500544961 /* InfoPlist.strings in Resources */,
 				66A2DEB916BB728600544961 /* MainStoryboard.storyboard in Resources */,
-				66F2E28B16C0C0F000FABA75 /* Default-568h@2x.png in Resources */,
-				66F2E28C16C0C0F000FABA75 /* Default.png in Resources */,
-				66F2E28D16C0C0F000FABA75 /* Default@2x.png in Resources */,
-				66F2E28E16C0C0F000FABA75 /* Icon-72.png in Resources */,
-				66F2E28F16C0C0F000FABA75 /* Icon.png in Resources */,
-				66F2E29016C0C0F000FABA75 /* Icon@2x.png in Resources */,
-				66F2E29116C0C0F000FABA75 /* iTunesArtwork.png in Resources */,
-				66F2E29416C0C45E00FABA75 /* background.png in Resources */,
-				66F2E29516C0C45E00FABA75 /* background@2x.png in Resources */,
+				F48C3A0116BE7579006943E2 /* Dropbox icon.png in Resources */,
+				F48C3A1016BF6404006943E2 /* GSDropboxActivityIcon.png in Resources */,
+				F48C3A1116BF6404006943E2 /* GSDropboxActivityIcon@2x.png in Resources */,
+				F48C3A1216BF6404006943E2 /* GSDropboxActivityIcon@2x~ipad.png in Resources */,
+				F48C3A1316BF6404006943E2 /* GSDropboxActivityIcon~ipad.png in Resources */,
+				6640405916C9F66000C23AC3 /* background.png in Resources */,
+				6640405A16C9F66000C23AC3 /* background@2x.png in Resources */,
+				6640405B16C9F66000C23AC3 /* Default-568h@2x.png in Resources */,
+				6640405C16C9F66000C23AC3 /* Default.png in Resources */,
+				6640405D16C9F66000C23AC3 /* Default@2x.png in Resources */,
+				6640405E16C9F66000C23AC3 /* Icon-72.png in Resources */,
+				6640405F16C9F66000C23AC3 /* Icon.png in Resources */,
+				6640406016C9F66000C23AC3 /* Icon@2x.png in Resources */,
+				6640406116C9F66000C23AC3 /* iTunesArtwork.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
