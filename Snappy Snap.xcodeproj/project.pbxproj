@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6640405916C9F66000C23AC3 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 6640405016C9F66000C23AC3 /* background.png */; };
-		6640405A16C9F66000C23AC3 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6640405116C9F66000C23AC3 /* background@2x.png */; };
 		6640405B16C9F66000C23AC3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6640405216C9F66000C23AC3 /* Default-568h@2x.png */; };
 		6640405C16C9F66000C23AC3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6640405316C9F66000C23AC3 /* Default.png */; };
 		6640405D16C9F66000C23AC3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6640405416C9F66000C23AC3 /* Default@2x.png */; };
@@ -18,6 +16,10 @@
 		6640406116C9F66000C23AC3 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 6640405816C9F66000C23AC3 /* iTunesArtwork.png */; };
 		6640406416C9FC6000C23AC3 /* SSTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 6640406316C9FC6000C23AC3 /* SSTheme.m */; };
 		6640406616CA005A00C23AC3 /* CooperBlackStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6640406516C9FF3200C23AC3 /* CooperBlackStd.otf */; };
+		669E88B716CA0CAB00E621DD /* background-gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 669E88B516CA0CAB00E621DD /* background-gradient.png */; };
+		669E88B816CA0CAB00E621DD /* fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 669E88B616CA0CAB00E621DD /* fish.png */; };
+		669E88BB16CA0F5900E621DD /* share-it.png in Resources */ = {isa = PBXBuildFile; fileRef = 669E88B916CA0F5900E621DD /* share-it.png */; };
+		669E88BC16CA0F5900E621DD /* snap-it.png in Resources */ = {isa = PBXBuildFile; fileRef = 669E88BA16CA0F5900E621DD /* snap-it.png */; };
 		66A2DEA016BB728500544961 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A2DE9F16BB728500544961 /* UIKit.framework */; };
 		66A2DEA216BB728500544961 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A2DEA116BB728500544961 /* Foundation.framework */; };
 		66A2DEA416BB728500544961 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A2DEA316BB728500544961 /* CoreGraphics.framework */; };
@@ -42,8 +44,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6640405016C9F66000C23AC3 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		6640405116C9F66000C23AC3 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 		6640405216C9F66000C23AC3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		6640405316C9F66000C23AC3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		6640405416C9F66000C23AC3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -54,6 +54,10 @@
 		6640406216C9FC6000C23AC3 /* SSTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTheme.h; sourceTree = "<group>"; };
 		6640406316C9FC6000C23AC3 /* SSTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTheme.m; sourceTree = "<group>"; };
 		6640406516C9FF3200C23AC3 /* CooperBlackStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CooperBlackStd.otf; sourceTree = "<group>"; };
+		669E88B516CA0CAB00E621DD /* background-gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-gradient.png"; sourceTree = "<group>"; };
+		669E88B616CA0CAB00E621DD /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish.png; sourceTree = "<group>"; };
+		669E88B916CA0F5900E621DD /* share-it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-it.png"; sourceTree = "<group>"; };
+		669E88BA16CA0F5900E621DD /* snap-it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snap-it.png"; sourceTree = "<group>"; };
 		66A2DE9C16BB728500544961 /* Snappy Snap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snappy Snap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A2DE9F16BB728500544961 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		66A2DEA116BB728500544961 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -155,9 +159,11 @@
 		66A2DEA616BB728500544961 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				669E88B916CA0F5900E621DD /* share-it.png */,
+				669E88BA16CA0F5900E621DD /* snap-it.png */,
+				669E88B516CA0CAB00E621DD /* background-gradient.png */,
+				669E88B616CA0CAB00E621DD /* fish.png */,
 				6640406516C9FF3200C23AC3 /* CooperBlackStd.otf */,
-				6640405016C9F66000C23AC3 /* background.png */,
-				6640405116C9F66000C23AC3 /* background@2x.png */,
 				6640405216C9F66000C23AC3 /* Default-568h@2x.png */,
 				6640405316C9F66000C23AC3 /* Default.png */,
 				6640405416C9F66000C23AC3 /* Default@2x.png */,
@@ -252,8 +258,6 @@
 				F48C3A1116BF6404006943E2 /* GSDropboxActivityIcon@2x.png in Resources */,
 				F48C3A1216BF6404006943E2 /* GSDropboxActivityIcon@2x~ipad.png in Resources */,
 				F48C3A1316BF6404006943E2 /* GSDropboxActivityIcon~ipad.png in Resources */,
-				6640405916C9F66000C23AC3 /* background.png in Resources */,
-				6640405A16C9F66000C23AC3 /* background@2x.png in Resources */,
 				6640405B16C9F66000C23AC3 /* Default-568h@2x.png in Resources */,
 				6640405C16C9F66000C23AC3 /* Default.png in Resources */,
 				6640405D16C9F66000C23AC3 /* Default@2x.png in Resources */,
@@ -261,6 +265,10 @@
 				6640405F16C9F66000C23AC3 /* Icon.png in Resources */,
 				6640406016C9F66000C23AC3 /* Icon@2x.png in Resources */,
 				6640406116C9F66000C23AC3 /* iTunesArtwork.png in Resources */,
+				669E88B716CA0CAB00E621DD /* background-gradient.png in Resources */,
+				669E88B816CA0CAB00E621DD /* fish.png in Resources */,
+				669E88BB16CA0F5900E621DD /* share-it.png in Resources */,
+				669E88BC16CA0F5900E621DD /* snap-it.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

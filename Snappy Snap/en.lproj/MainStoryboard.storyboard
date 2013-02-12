@@ -27,14 +27,38 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="Guh-8b-4wv"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="background-gradient.png" translatesAutoresizingMaskIntoConstraints="NO" id="Guh-8b-4wv"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fish.png" translatesAutoresizingMaskIntoConstraints="NO" id="KFe-2A-TU1">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="WsV-xW-tm4"/>
+                                    <constraint firstAttribute="height" constant="128" id="mlp-wr-srv"/>
+                                </constraints>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="share-it.png" translatesAutoresizingMaskIntoConstraints="NO" id="2xs-gQ-UQg">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="39H-Ma-c8b"/>
+                                    <constraint firstAttribute="width" constant="105" id="byq-kS-cPK"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="snap-it.png" translatesAutoresizingMaskIntoConstraints="NO" id="bma-Xw-9Gk">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="105" id="pkf-hr-Iks"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="bma-Xw-9Gk" secondAttribute="trailing" constant="10" id="1m4-og-SxO"/>
+                            <constraint firstItem="KFe-2A-TU1" firstAttribute="centerY" secondItem="Guh-8b-4wv" secondAttribute="centerY" type="default" id="3T9-Xl-rjO"/>
+                            <constraint firstItem="bma-Xw-9Gk" firstAttribute="top" secondItem="Ybe-Xm-U6c" secondAttribute="top" constant="7" id="3YU-ZC-d8N"/>
+                            <constraint firstItem="bma-Xw-9Gk" firstAttribute="top" secondItem="2xs-gQ-UQg" secondAttribute="top" type="default" id="4p4-Ku-z1B"/>
                             <constraint firstItem="Guh-8b-4wv" firstAttribute="bottom" secondItem="Ybe-Xm-U6c" secondAttribute="bottom" type="default" id="HQD-0k-b9Y"/>
                             <constraint firstItem="Guh-8b-4wv" firstAttribute="leading" secondItem="Ybe-Xm-U6c" secondAttribute="leading" type="user" id="JHs-12-AWz"/>
                             <constraint firstItem="Guh-8b-4wv" firstAttribute="top" secondItem="Ybe-Xm-U6c" secondAttribute="top" type="default" id="KyE-ZQ-41M"/>
+                            <constraint firstItem="bma-Xw-9Gk" firstAttribute="bottom" secondItem="2xs-gQ-UQg" secondAttribute="bottom" type="default" id="Ndv-Aj-Tls"/>
                             <constraint firstItem="Guh-8b-4wv" firstAttribute="trailing" secondItem="Ybe-Xm-U6c" secondAttribute="trailing" type="user" id="lxi-kJ-3g5"/>
+                            <constraint firstItem="KFe-2A-TU1" firstAttribute="centerX" secondItem="Guh-8b-4wv" secondAttribute="centerX" type="default" id="ppx-dT-fy7"/>
+                            <constraint firstItem="2xs-gQ-UQg" firstAttribute="leading" secondItem="Ybe-Xm-U6c" secondAttribute="leading" constant="7" id="wSB-OY-hAr"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="SNAPPY SNAP!" id="RQ2-5e-Yyu">
@@ -49,13 +73,16 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <connections>
+                        <outlet property="fishView" destination="KFe-2A-TU1" id="jGY-cM-LN7"/>
                         <outlet property="photoView" destination="Guh-8b-4wv" id="QPo-Qh-dbx"/>
+                        <outlet property="shareItView" destination="2xs-gQ-UQg" id="SUK-tp-F16"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i2j-Vn-hOk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-309" y="123"/>
+            <point key="canvasLocation" x="-299" y="123"/>
         </scene>
         <!--Image Picker Controller-->
         <scene sceneID="5">
@@ -69,11 +96,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="145" y="123"/>
+            <point key="canvasLocation" x="391" y="132"/>
         </scene>
     </scenes>
     <resources>
-        <image name="background.png" width="320" height="480"/>
+        <image name="background-gradient.png" width="640" height="960"/>
+        <image name="fish.png" width="576" height="286"/>
+        <image name="share-it.png" width="211" height="103"/>
+        <image name="snap-it.png" width="200" height="103"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
