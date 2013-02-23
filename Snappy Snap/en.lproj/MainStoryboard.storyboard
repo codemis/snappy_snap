@@ -105,6 +105,20 @@
         <image name="share-it.png" width="211" height="103"/>
         <image name="snap-it.png" width="200" height="103"/>
     </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="SnappySnapVC" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SnappySnapVC.h"/>
+            <relationships>
+                <relationship kind="action" name="shareItClicked:"/>
+                <relationship kind="outlet" name="fishView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="photoView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="shareItView" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
