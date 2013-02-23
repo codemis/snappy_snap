@@ -58,14 +58,14 @@
 		669E88B616CA0CAB00E621DD /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish.png; sourceTree = "<group>"; };
 		669E88B916CA0F5900E621DD /* share-it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-it.png"; sourceTree = "<group>"; };
 		669E88BA16CA0F5900E621DD /* snap-it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snap-it.png"; sourceTree = "<group>"; };
-		66A2DE9C16BB728500544961 /* Snappy Snap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snappy Snap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A2DE9C16BB728500544961 /* SnappySnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnappySnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A2DE9F16BB728500544961 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		66A2DEA116BB728500544961 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66A2DEA316BB728500544961 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		66A2DEA716BB728500544961 /* Snappy Snap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Snappy Snap-Info.plist"; sourceTree = "<group>"; };
+		66A2DEA716BB728500544961 /* SnappySnap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnappySnap-Info.plist"; sourceTree = "<group>"; };
 		66A2DEA916BB728500544961 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66A2DEAB16BB728500544961 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		66A2DEAD16BB728500544961 /* Snappy Snap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Snappy Snap-Prefix.pch"; sourceTree = "<group>"; };
+		66A2DEAD16BB728500544961 /* SnappySnap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnappySnap-Prefix.pch"; sourceTree = "<group>"; };
 		66A2DEAE16BB728500544961 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		66A2DEAF16BB728500544961 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		66A2DEB816BB728600544961 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 		66A2DE9D16BB728500544961 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				66A2DE9C16BB728500544961 /* Snappy Snap.app */,
+				66A2DE9C16BB728500544961 /* SnappySnap.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -172,10 +172,10 @@
 				6640405716C9F66000C23AC3 /* Icon@2x.png */,
 				6640405816C9F66000C23AC3 /* iTunesArtwork.png */,
 				F48C3A0016BE7579006943E2 /* Dropbox icon.png */,
-				66A2DEA716BB728500544961 /* Snappy Snap-Info.plist */,
+				66A2DEA716BB728500544961 /* SnappySnap-Info.plist */,
 				66A2DEA816BB728500544961 /* InfoPlist.strings */,
 				66A2DEAB16BB728500544961 /* main.m */,
-				66A2DEAD16BB728500544961 /* Snappy Snap-Prefix.pch */,
+				66A2DEAD16BB728500544961 /* SnappySnap-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -202,9 +202,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		66A2DE9B16BB728500544961 /* Snappy Snap */ = {
+		66A2DE9B16BB728500544961 /* SnappySnap */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 66A2DEBF16BB728600544961 /* Build configuration list for PBXNativeTarget "Snappy Snap" */;
+			buildConfigurationList = 66A2DEBF16BB728600544961 /* Build configuration list for PBXNativeTarget "SnappySnap" */;
 			buildPhases = (
 				66A2DE9816BB728500544961 /* Sources */,
 				66A2DE9916BB728500544961 /* Frameworks */,
@@ -214,9 +214,9 @@
 			);
 			dependencies = (
 			);
-			name = "Snappy Snap";
+			name = SnappySnap;
 			productName = "Snappy Snap";
-			productReference = 66A2DE9C16BB728500544961 /* Snappy Snap.app */;
+			productReference = 66A2DE9C16BB728500544961 /* SnappySnap.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -228,7 +228,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Johnathan Pulos";
 			};
-			buildConfigurationList = 66A2DE9716BB728500544961 /* Build configuration list for PBXProject "Snappy Snap" */;
+			buildConfigurationList = 66A2DE9716BB728500544961 /* Build configuration list for PBXProject "SnappySnap" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -240,7 +240,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				66A2DE9B16BB728500544961 /* Snappy Snap */,
+				66A2DE9B16BB728500544961 /* SnappySnap */,
 			);
 		};
 /* End PBXProject section */
@@ -383,9 +383,9 @@
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Snappy Snap/Snappy Snap-Prefix.pch";
-				INFOPLIST_FILE = "Snappy Snap/Snappy Snap-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Snappy Snap/SnappySnap-Prefix.pch";
+				INFOPLIST_FILE = "Snappy Snap/SnappySnap-Info.plist";
+				PRODUCT_NAME = SnappySnap;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -398,9 +398,9 @@
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Snappy Snap/Snappy Snap-Prefix.pch";
-				INFOPLIST_FILE = "Snappy Snap/Snappy Snap-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Snappy Snap/SnappySnap-Prefix.pch";
+				INFOPLIST_FILE = "Snappy Snap/SnappySnap-Info.plist";
+				PRODUCT_NAME = SnappySnap;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -408,7 +408,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		66A2DE9716BB728500544961 /* Build configuration list for PBXProject "Snappy Snap" */ = {
+		66A2DE9716BB728500544961 /* Build configuration list for PBXProject "SnappySnap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				66A2DEBD16BB728600544961 /* Debug */,
@@ -417,7 +417,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66A2DEBF16BB728600544961 /* Build configuration list for PBXNativeTarget "Snappy Snap" */ = {
+		66A2DEBF16BB728600544961 /* Build configuration list for PBXNativeTarget "SnappySnap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				66A2DEC016BB728600544961 /* Debug */,
